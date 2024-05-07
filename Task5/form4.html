@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+</head>
+
+<body>
+    <form name="form" action="form.com" method="post">
+        <table cellspacing="20px" align="center">
+            <h2 align ="center">Registration Form</h2>
+            <tr>
+                <td>
+                    <label for="id1">First Name:</label><br>
+                    
+                    <input type="text" id="id1" name="fn">
+                </td>
+                <td>
+                    <label for="id2">Last Name:</label><br>
+                    <input type="text" id="id2" name="ln">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="id3">Birthday:</label><br>
+                    <input type="text" placeholder="dd/mm/yyyy" id="id3" name="bd">
+                </td>
+                <td>
+                    <label for="id4">Gender:</label><br>
+                    <input type="radio" value="MALE" id="id4" name="r1">Male
+                    <input type="radio" value="FEMALE" name="r1" id="id4">Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="id5">Email:</label><br>
+                    <input type="email" id="id5" name="el">
+                </td>
+                <td>
+                    <label for="id6">Phone Number:</label><br>
+                    <input type="number" id="id6" name="pn">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="id7">Subject:</label>
+                    <br>
+                    <select id="id7" name="sb">
+                        <option>Choose Option &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;</option>
+                        <option>Mathmatics</option>
+                        <option>Physics</option>
+                        <option>Chemistry</option>
+                        <option>Biology</option>
+                        <option>Computer science</option>
+                        <option>Zoology</option>
+                        <option>Psychology</option>
+                        <option>Philosaphi</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Submit"></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>
